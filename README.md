@@ -14,6 +14,7 @@ some rework to run on a 'little endian' system.
 First, build the code. There is a Makefile in directory 'src/islarge/src' which 
 will build the library, libislarge.a , using the OSF 'make' process. If you 
 have a different 'make', you should rewrite this Makefile appropriately.
+A suitable OSF 'make' is available here https://github.com/IBM/ode .
 
 Next, write an application which will load data into your tables. There are sample
 applications for loading tables in the 'src/islarge/src' directory, but you will need to
